@@ -159,7 +159,7 @@ const FlappyBird: React.FC = () => {
         <p>Space or Arrow Up: Jump</p>
       </div>
       <h2>Score: {score}</h2>
-      {gameOver && <h3>Game Over! Press &quot;Restart&quot; to play again.</h3>}
+      {gameOver && <h3>Game Over ! Press &quot;Restart&quot; to play again.</h3>}
       {!gameStarted && <h3>Press &quot;Start&quot; to begin the game.</h3>}
       <div
         style={{
